@@ -71,14 +71,23 @@ Retos/
 │
 ├── S_07/
 │   └── Reto_01/
-│       ├── Main.java //
+│       ├── Main.java
 │   └── Reto_02/
-│       └── Main.java //
+│       └── Main.java 
 │
 ├── S_08/
 │   └── Reto_01/
-│       ├── Main.java //
+│       ├── Main.java //MainNarrativa
+|       └── implementaciones
+│           ├──DecisionBinaria.java
+│           ├──DialogoTexto.java
+│           └──TransicionSimple.java
+|       └── interfaces
+│           ├──GestorDialogo.java
+│           ├──LogicaDecision.java
+│           └──TransicionHistoria.java
 │   └── Reto_02/
-│       └── Main.java //
+│       ├── Monitor.java
+│       └── ConsumoCriticoException.java
 │
 └── README.md
